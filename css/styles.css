@@ -137,11 +137,14 @@ p, h1, h2, h3, h4, h5, h6 {
 .main {
     /* padding-top: 188px;
     padding-bottom: 188px; */
-
 }
 
 .hero-subtitle {
     background: #2e2f42;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-image.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 
@@ -152,7 +155,8 @@ p, h1, h2, h3, h4, h5, h6 {
 .hero-wraper {
     padding-top: 188px;
     padding-bottom: 188px;
-}
+    }
+
 
 
 .hero-title {
@@ -189,6 +193,7 @@ p, h1, h2, h3, h4, h5, h6 {
 .hero-button:active {
     background: #404bbf;
 }
+
 
 
 
