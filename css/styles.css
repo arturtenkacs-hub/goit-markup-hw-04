@@ -321,6 +321,43 @@ p, h1, h2, h3, h4, h5, h6 {
         color: #434455;
 }
 
+.ourteam-socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-top: 8px;
+}
+
+.ourteam-a {
+    width: 40px;
+        height: 40px;
+        background-color: #4d5ae5;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.ourteam-svg-insta {
+    fill: #fff;
+
+}
+
+.ourteam-svg-twitter {
+    fill: #fff;
+}
+
+.ourteam-svg-facebook {
+    fill: #fff;
+}
+
+.ourteam-svg-linkedin {
+    fill: #fff;
+}
+
+
+
 
 /* ----------------------------------------------------------------- */
 
