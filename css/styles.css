@@ -254,6 +254,18 @@ p, h1, h2, h3, h4, h5, h6 {
         color: #434455;
 }
 
+.section-svg-item {
+    /* padding: 24px 100px 24px 100px; */
+}
+
+
+.section-svg-div {
+    background-color: #f4f4fd;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    padding: 24px 100px 24px 100px;
+    margin-bottom: 8px;
+}
 
 /* --------------------------------------------------------------------- */
 
@@ -356,7 +368,9 @@ p, h1, h2, h3, h4, h5, h6 {
     fill: #fff;
 }
 
-
+.ourteam-a:hover {
+    background-color: #404BBF;
+}
 
 
 /* ----------------------------------------------------------------- */
@@ -424,6 +438,40 @@ p, h1, h2, h3, h4, h5, h6 {
         letter-spacing: 0.02em;
         color: #434455;
 }
+
+
+.ourportfolio-hl-div {
+    position: relative;
+    overflow: hidden;
+}
+
+.ourportfolio-hidden-text {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #f4f4fd;
+        font-family: "Roboto", sans-serif;
+        background-color: #4d5ae5;
+        position: absolute;
+        top: 0;
+        padding: 40px 32px 164px 32px;
+        transform: translateY(100%);
+        transition-duration: 0.3s;
+        transition-timing-function: ease-in-out;
+        
+}
+
+.ourportfolio-list-item:hover .ourportfolio-hidden-text {
+    transform: translateY(0);
+}
+
+.ourportfolio-list-item:nth-child(2):hover {
+box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+0 1px 1px 0 rgba(46, 47, 66, 0.16),
+0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+
 
 
 /* ------------------------------------------------------------ */
@@ -515,6 +563,8 @@ p, h1, h2, h3, h4, h5, h6 {
         display: flex;
         align-items: center;
         justify-content: center;
+        transition-duration: 0.3s;
+        transition-timing-function: ease-in-out;
 }
 
 .footer-svg-insta {
@@ -534,3 +584,6 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 
+.footer-a:hover {
+    background-color: #31D0AA;
+}
