@@ -472,6 +472,50 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 
+.footer-wrapper {
+    display: flex;
+    justify-content: baseline;
+    flex-direction: row;
+}
 
+.footer-p {
+    display: inline-block;
+}
+
+
+.footer-icons-div {
+    /* display: flex;
+    margin-left: 120px;
+    gap: 16px;
+    justify-content: center;
+    align-items: center; */
+
+}
+
+.footer-a {
+    width: 40px;
+        height: 40px;
+        background-color: #4d5ae5;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.footer-svg-insta {
+    fill: #fff;
+}
+
+.footer-svg-twitter {
+    fill: #fff;
+}
+
+.footer-svg-facebook {
+    fill: #fff;
+}
+
+.footer-svg-linkedin {
+    fill: #fff;
+}
 
 
