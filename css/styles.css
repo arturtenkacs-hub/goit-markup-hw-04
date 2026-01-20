@@ -83,7 +83,7 @@ p, h1, h2, h3, h4, h5, h6 {
     list-style: none;
     display: flex;
     align-items: center;
-    gap: 40px;
+    gap: 48px;
 }
 
 .header-list-item {
@@ -98,6 +98,26 @@ p, h1, h2, h3, h4, h5, h6 {
         padding-top: 24px;
         padding-bottom: 24px;
 }
+
+
+
+.active:active::after {
+        content: "";
+            position: absolute;
+            left: 0;
+            bottom: -1px;
+            width: 100%;
+            height: 4px;
+            background-color: #404bbf;
+            border-radius: 2px;
+}
+
+.header-items {
+    position: relative;
+}
+
+
+
 
 .header-list-item:hover,.header-list-item:active,.header-list-item:focus {
     color: #404bbf;
@@ -186,6 +206,9 @@ p, h1, h2, h3, h4, h5, h6 {
         border: none;
         border-radius: 4px;
         padding: 16px 32px;
+        transition-property: background;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }  
 
 .hero-button:hover,
@@ -297,7 +320,6 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .ourteam-div {
     padding: 32px 16px 32px 16px;
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 
@@ -305,8 +327,10 @@ p, h1, h2, h3, h4, h5, h6 {
     background-color: #fff;
     width: calc((100% - 72px)/4);
     border-radius: 0 0 4px 4px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    }
 
-}
+
 
 .ourteam-img {
 
@@ -349,6 +373,9 @@ p, h1, h2, h3, h4, h5, h6 {
         display: flex;
         align-items: center;
         justify-content: center;
+        transition-property: background-color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .ourteam-svg-insta {
@@ -457,8 +484,8 @@ p, h1, h2, h3, h4, h5, h6 {
         top: 0;
         padding: 40px 32px 164px 32px;
         transform: translateY(100%);
-        transition-duration: 0.3s;
-        transition-timing-function: ease-in-out;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
         
 }
 
@@ -466,7 +493,7 @@ p, h1, h2, h3, h4, h5, h6 {
     transform: translateY(0);
 }
 
-.ourportfolio-list-item:nth-child(2):hover {
+.ourportfolio-list-item:hover {
 box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
 0 1px 1px 0 rgba(46, 47, 66, 0.16),
 0 1px 6px 0 rgba(46, 47, 66, 0.08);
@@ -563,8 +590,9 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
         display: flex;
         align-items: center;
         justify-content: center;
-        transition-duration: 0.3s;
-        transition-timing-function: ease-in-out;
+        transition-property: background-color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-svg-insta {
