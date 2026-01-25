@@ -309,7 +309,9 @@ ul {
 }
 
 .section-svg-item {
-    /* padding: 24px 100px 24px 100px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -341,6 +343,7 @@ ul {
         display: block;
         margin-bottom: 72px;
 }
+
 .ourteam-list {
     list-style-type: none;
     display: flex;
@@ -452,7 +455,7 @@ ul {
 
 
 
-.ourportfolio-div{
+.ourportfolio-div {
     border-bottom: 1px solid #e7e9fc;
         border-left: 1px solid #e7e9fc;
         border-right: 1px solid #e7e9fc;
